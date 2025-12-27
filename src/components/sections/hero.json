@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "sun"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "primaryCta": {
+      "type": "component",
+      "component": "shared.link"
+    },
+    "secondaryCta": {
+      "type": "component",
+      "component": "shared.link"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.carousel-slide"
+    }
+  }
+}

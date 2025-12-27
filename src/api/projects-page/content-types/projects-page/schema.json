@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "projects_pages",
+  "info": {
+    "singularName": "projects-page",
+    "pluralName": "projects-pages",
+    "displayName": "Projects Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "layout.page-hero"
+    },
+    "categoryLabels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.category-label"
+    },
+    "cta": {
+      "type": "component",
+      "component": "shared.cta-block"
+    }
+  }
+}

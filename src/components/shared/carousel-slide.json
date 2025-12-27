@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_carousel_slides",
+  "info": {
+    "displayName": "Carousel Slide",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"],
+      "required": true
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

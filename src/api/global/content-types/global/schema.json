@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "description": "Site-wide settings and shared content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "navLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "footerText": {
+      "type": "richtext"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-item"
+    },
+    "contact": {
+      "type": "component",
+      "component": "shared.contact"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-link"
+    },
+    "ctaQuoteLabel": {
+      "type": "string"
+    },
+    "ctaQuoteUrl": {
+      "type": "string"
+    },
+    "notFoundTitle": {
+      "type": "string"
+    },
+    "notFoundBody": {
+      "type": "text"
+    }
+  }
+}

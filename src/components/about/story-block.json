@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_about_story_blocks",
+  "info": {
+    "displayName": "Story Block",
+    "icon": "quote"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

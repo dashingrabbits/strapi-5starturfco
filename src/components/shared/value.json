@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_values",
+  "info": {
+    "displayName": "Value",
+    "icon": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "iconKey": {
+      "type": "enumeration",
+      "enum": [
+        "user",
+        "book",
+        "check",
+        "clock",
+        "leaf",
+        "sun",
+        "award",
+        "droplets",
+        "shovel",
+        "users"
+      ],
+      "default": "user"
+    }
+  }
+}

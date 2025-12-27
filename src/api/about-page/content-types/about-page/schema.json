@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "layout.page-hero"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat"
+    },
+    "story": {
+      "type": "component",
+      "component": "about.story-block"
+    },
+    "valuesEyebrow": {
+      "type": "string"
+    },
+    "valuesHeading": {
+      "type": "string"
+    },
+    "valuesDescription": {
+      "type": "text"
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.value"
+    },
+    "cta": {
+      "type": "component",
+      "component": "shared.cta-block"
+    }
+  }
+}

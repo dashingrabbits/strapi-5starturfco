@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_feature_cards",
+  "info": {
+    "displayName": "Feature Card",
+    "icon": "rocket"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "iconKey": {
+      "type": "enumeration",
+      "enum": [
+        "leaf",
+        "droplets",
+        "sun",
+        "users",
+        "shovel",
+        "award"
+      ],
+      "default": "leaf"
+    },
+    "styleVariant": {
+      "type": "string"
+    }
+  }
+}

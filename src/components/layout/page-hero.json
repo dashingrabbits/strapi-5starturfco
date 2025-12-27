@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_page_heroes",
+  "info": {
+    "displayName": "Page Hero",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

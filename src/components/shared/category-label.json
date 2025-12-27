@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_category_labels",
+  "info": {
+    "displayName": "Category Label",
+    "icon": "priceTag"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "label",
+      "required": true
+    }
+  }
+}

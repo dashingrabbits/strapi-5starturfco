@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_shared_form_configs",
+  "info": {
+    "displayName": "Form Config",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "endpoint": {
+      "type": "string"
+    },
+    "nameLabel": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "phoneLabel": {
+      "type": "string"
+    },
+    "serviceLabel": {
+      "type": "string"
+    },
+    "messageLabel": {
+      "type": "string"
+    },
+    "submitLabel": {
+      "type": "string"
+    },
+    "successMessage": {
+      "type": "text"
+    },
+    "errorMessage": {
+      "type": "text"
+    },
+    "consentText": {
+      "type": "text"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-item"
+    }
+  }
+}

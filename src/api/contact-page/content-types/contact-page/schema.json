@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "layout.page-hero"
+    },
+    "contactInfo": {
+      "type": "component",
+      "component": "shared.contact"
+    },
+    "formConfig": {
+      "type": "component",
+      "component": "shared.form-config"
+    },
+    "mapEmbed": {
+      "type": "text"
+    }
+  }
+}
